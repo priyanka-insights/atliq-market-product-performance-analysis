@@ -195,7 +195,13 @@ This analysis highlights the best-performing products based on revenue.
 Products like **AQ BZ Compact** and **AQ Smash 1** are among the top-performing products, contributing significantly to overall revenue and indicating strong product-market demand.
 
 ---
+## Power BI Dashboard
 
+The following dashboard visualizes key insights from the SQL analysis including market revenue, revenue growth trends, top customers, and top performing products.
+
+![Sales Dashboard](dashboard.png)
+
+---
 # Key Business Insights
 
 ## Market Performance
