@@ -153,30 +153,34 @@ A total of **13 SQL queries** were written to perform this analysis.
 13. Market Ranking by Revenue
 
 ---
+##  SQL Analysis Results
 
-# Visual Results
+###  Revenue by Market
+This analysis identifies which markets contribute the most to overall revenue.
 
-## Top Markets by Revenue
-
-![Market Revenue](screenshots/market_revenue.png)
-
----
-
-## Top Products by Profit
-
-![Top Products](screenshots/top_products_profit.png)
+![Market Revenue](market_revenue.png)
 
 ---
 
-## Customer Revenue Contribution
+###  Year-over-Year Revenue Growth
+This query calculates revenue growth across different years using SQL window functions.
 
-![Customer Contribution](screenshots/customer_revenue.png)
+![Revenue Growth](revenue_growth.png)
 
 ---
 
-## Revenue Growth Trend
+###  Top Customers by Revenue
+This analysis identifies the customers contributing the highest revenue.
 
-![Revenue Growth](screenshots/yoy_growth.png)
+![Top Customers](top_customers.png)
+
+---
+
+###  Top Products by Revenue
+This query highlights the best-performing products based on revenue.
+
+![Top Products](top_products_revenue.png)
+
 
 ---
 
@@ -244,21 +248,6 @@ This project demonstrates core SQL skills used by data analysts:
 * SQL
 * MySQL
 * GitHub
-
----
-
-# Project Structure
-
-```
-atliq-market-product-performance-analysis
-
-README.md
-
-sql_queries
-   analysis_queries.sql
-
-screenshots
-```
 
 ---
 
