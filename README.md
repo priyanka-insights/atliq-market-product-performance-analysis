@@ -1,8 +1,10 @@
-# atliq-market-product-performance-analysis
-SQL project analyzing global sales performance, product profitability, and market expansion opportunities for Atliq Hardware.
 # Atliq Hardware – Market & Product Performance Analysis (SQL Project)
 
-## Project Summary
+SQL project analyzing global sales performance, product profitability, and market expansion opportunities for **Atliq Hardware**.
+
+---
+
+# Project Summary
 
 This project analyzes the global sales performance of **Atliq Hardware**, a computer hardware manufacturer operating across multiple international markets and distribution channels.
 
@@ -42,23 +44,23 @@ This project answers these questions using **SQL-based business analysis**.
 
 # Dataset Overview
 
-The dataset follows a **data warehouse structure** optimized for analytics.
+The dataset follows a **data warehouse structure optimized for analytics**.
 
 ## Dimension Tables
 
-* `dim_customer`
-* `dim_product`
-* `dim_date`
+* dim_customer
+* dim_product
+* dim_date
 
 ## Fact Tables
 
-* `fact_sales_monthly`
-* `fact_gross_price`
-* `fact_manufacturing_cost`
-* `fact_freight_cost`
-* `fact_pre_invoice_deductions`
-* `fact_post_invoice_deductions`
-* `fact_forecast_monthly`
+* fact_sales_monthly
+* fact_gross_price
+* fact_manufacturing_cost
+* fact_freight_cost
+* fact_pre_invoice_deductions
+* fact_post_invoice_deductions
+* fact_forecast_monthly
 
 ---
 
@@ -113,74 +115,84 @@ A total of **13 SQL queries** were written to perform this analysis.
 
 ## Data Exploration
 
-1. Total Sales Records
-2. Total Unique Products
-3. Total Unique Customers
-4. Dataset Date Range
-
----
+* Total Sales Records
+* Total Unique Products
+* Total Unique Customers
+* Dataset Date Range
 
 ## Revenue Analysis
 
-5. Total Company Revenue
-6. Top Products by Revenue
-
----
+* Total Company Revenue
+* Top Products by Revenue
 
 ## Profitability Analysis
 
-7. Top Products by Profit
-
----
+* Top Products by Profit
 
 ## Customer Analysis
 
-8. Top Customers by Revenue
-9. Revenue Contribution Percentage
-
----
+* Top Customers by Revenue
+* Revenue Contribution Percentage
 
 ## Time Series Analysis
 
-10. Revenue by Year
-11. Year-over-Year Revenue Growth
-
----
+* Revenue by Year
+* Year-over-Year Revenue Growth
 
 ## Segmentation & Ranking
 
-12. Customer Segmentation
-13. Market Ranking by Revenue
+* Customer Segmentation
+* Market Ranking by Revenue
 
 ---
-##  SQL Analysis Results
 
-###  Revenue by Market
+# SQL Analysis Results
+
+## Revenue by Market
+
 This analysis identifies which markets contribute the most to overall revenue.
 
 ![Market Revenue](market_revenue.png)
 
+**Insight**
+
+India and the USA generate the highest revenue for the company, indicating strong demand in these regions and highlighting potential opportunities for further expansion.
+
 ---
 
-###  Year-over-Year Revenue Growth
-This query calculates revenue growth across different years using SQL window functions.
+## Year-over-Year Revenue Growth
+
+This analysis measures revenue growth across different years using SQL window functions.
 
 ![Revenue Growth](revenue_growth.png)
 
+**Insight**
+
+The company demonstrates strong year-over-year revenue growth, indicating increasing demand and successful market expansion strategies.
+
 ---
 
-###  Top Customers by Revenue
-This analysis identifies the customers contributing the highest revenue.
+## Top Customers by Revenue
+
+This analysis identifies the customers contributing the most to total revenue.
 
 ![Top Customers](top_customers.png)
 
+**Insight**
+
+Major enterprise customers such as **Amazon** and **Atliq e Store** contribute a significant portion of revenue, indicating strong partnerships with large distribution channels.
+
 ---
 
-###  Top Products by Revenue
-This query highlights the best-performing products based on revenue.
+## Top Products by Revenue
+
+This analysis highlights the best-performing products based on revenue.
 
 ![Top Products](top_products_revenue.png)
 
+**Insight**
+
+Products like **AQ BZ Compact** and **AQ Smash 1** are among the top-performing products, contributing significantly to overall revenue and indicating strong product-market demand.
 
 ---
 
@@ -188,32 +200,26 @@ This query highlights the best-performing products based on revenue.
 
 ## Market Performance
 
-India and the United States are the **largest revenue generating markets**, indicating strong demand in these regions.
-
----
+India and the United States represent the company’s strongest markets, suggesting opportunities for deeper regional expansion strategies.
 
 ## Product Performance
 
 The **AQ BZ product series** plays a major role in driving company revenue and profitability.
 
----
-
 ## Customer Concentration
 
-A small number of customers contribute a **significant portion of total revenue**, highlighting potential revenue concentration risks.
-
----
+A small number of customers contribute a significant portion of total revenue, highlighting potential revenue concentration risks.
 
 ## Revenue Growth
 
-The company experienced rapid growth:
+Revenue growth trend:
 
-* **2018 → $73M**
-* **2019 → $267M**
-* **2020 → $678M**
-* **2021 → $3.56B**
+* 2018 — $73M
+* 2019 — $267M
+* 2020 — $678M
+* 2021 — $3.56B
 
-This indicates strong **market expansion and increasing demand**.
+The company experienced rapid growth, particularly after 2020, indicating strong market expansion and increasing product demand.
 
 ---
 
@@ -245,8 +251,7 @@ This project demonstrates core SQL skills used by data analysts:
 
 # Tools Used
 
-* SQL
-* MySQL
+* SQL (MySQL)
 * GitHub
 
 ---
@@ -255,6 +260,6 @@ This project demonstrates core SQL skills used by data analysts:
 
 **Priyanka**
 
- Data Analyst
+Data Analyst
 
 Skills: SQL • Data Analysis • Business Intelligence
